@@ -13,10 +13,10 @@ wget http://www.mdjunited.com/medias/images/zoo.jpg -q -O zoo.jpg
 cd Secret
 
 wget https://www.francetvinfo.fr/image/75ixl3muy-0cac/1200/450/15548263.jpg -q -O panda.jpg
-
 touch journal_intime.txt
 
-cd ../../Download
+cd ../..
+cd Download
 
 wget https://stopauxmassacresanimaliers.fr/wp-content/uploads/2016/02/bonobo.jpg -q -O singe.jpg
 
@@ -31,7 +31,8 @@ cd Secret
 
 touch -t 201802191845 panda.jpg
 
-cd ../../Download
+cd ../..
+cd Download
 
 touch -t 201801301102 singe.jpg
 touch -t 201806090354 girafe.jpg
